@@ -103,7 +103,7 @@ const Sidebar = ({ onToggle, collapsed, currentPage, onPageChange }) => {
         </div>
       </div>
       {/* Navigation  */}
-      <nav className="flex-1 p-4 space-y-2 overflow-y-auto">
+      <nav className="flex-1 p-4 space-y-2 overflow-y-auto scrollbar-hide">
         {menuItems.map((item) => (
           <div key={item.id}>
             <button
