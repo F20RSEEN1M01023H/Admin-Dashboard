@@ -193,7 +193,7 @@ const TableSection = () => {
             {topProducts.map((product, index) => (
               <div
                 key={index}
-                className="flex items-center justify-between p-4 rounded-xl hover:bg-slate-50 dark:hover:bg-slate-800/50 transition-colors "
+                className="flex items-center justify-between p-4 rounded-xl outline hover:bg-slate-50 dark:hover:bg-slate-800/50 transition-colors "
               >
                 <div className="flex-1">
                   <h4 className="text-sm font-semibold text-slate-800 dark:text-white">

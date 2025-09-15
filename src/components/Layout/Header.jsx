@@ -9,6 +9,7 @@ import {
   Settings,
   ChevronDown,
 } from "lucide-react";
+import Hammad from "../../assets/Hammad.png";
 
 const Header = ({ onToggleSidebar, sideBarCollapsed }) => {
   return (
@@ -73,7 +74,7 @@ const Header = ({ onToggleSidebar, sideBarCollapsed }) => {
           {/* User-Profile  */}
           <div className="flex items-center space-x-3 pl-3 border-l border-slate-200 dark:border-slate-700">
             <img
-              src="../../../src/assets/Hammad.png"
+              src={Hammad}
               alt="user-profile"
               className="rounded-full w-8 h-8 ring-2 ring-blue-500"
             />

@@ -14,6 +14,7 @@ import {
   ChevronDown,
 } from "lucide-react";
 import React, { useState } from "react";
+import Hammad from "../../assets/Hammad.png";
 
 const menuItems = [
   {
@@ -166,7 +167,7 @@ const Sidebar = ({ onToggle, collapsed, currentPage, onPageChange }) => {
         <div className="p-4 border-t border-slate-200/50 dark:border-slate-700/50">
           <div className="flex items-center space-x-3 p-3 rounded-xl bg-slate-50 dark:bg-slate-800/50">
             <img
-              src="../../../src/assets/Hammad.png"
+              src={Hammad}
               alt="user"
               className="w-10 h-10 rounded-full ring-2 ring-blue-500"
             />
